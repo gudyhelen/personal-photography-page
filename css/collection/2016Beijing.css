@@ -1,0 +1,23 @@
+
+
+.Beijing-Images {
+  margin-left:10px;
+  margin-top: 20px;
+}
+
+.Beijing-Images img {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width:100%;
+  margin: auto;
+
+}
+
+.Beijing-Images{
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-width: 35% 20% 35%; /* Chrome, Safari, Opera */
+    column-width: 35%  20% 35%;
+}

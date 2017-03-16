@@ -1,0 +1,42 @@
+img {
+  vertical-align: bottom;
+}
+img.left-image {
+  width:30%;
+  padding:10px;
+  padding-left: 15px;
+}
+
+img.middle-image {
+  width:30%;
+  padding: 10px;
+  padding-left: 20px;
+  padding-top:32px;
+  vertical-align: top;
+}
+
+img.right-image {
+  padding: 10px;
+  width: 30%;
+  padding-right: 15px;
+}
+
+#middle-alternate {
+  display:none;
+}
+
+.info-activities {
+  display:none;
+}
+
+div .info-education {
+  display: none;
+}
+
+.three-images-container.showInfo .info-education{
+  display: inline-block;
+  float: none;
+  width:100%;
+  margin-top:20px;
+
+}
